@@ -1,5 +1,7 @@
-$red: red;
+// @use '../../node_modules/open-props/open-props.min.css';
+// @use '../../node_modules/open-props/normalize.min.css';
+@use './layout/body';
 
-body {
-    background: $red;
-}
+@use './components/header';
+@use './components/article';
+@use './components/footer';
