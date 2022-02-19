@@ -9,16 +9,18 @@
   place-items: center;
 
   &__title {
-    font-size: calc(var(--size-fluid-1) * 3);
-    line-height: var(--font-lineheight-0);
-    font-variation-settings: 'TRME' 0, 'TRMG' 0, 'TRMB' 0, 'TRMF' 772, 'BLDB' 390;
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: 0.194em;
+    font-weight: 900;
+    font-variation-settings: "TRME" 0, "TRMG" 512, "TRMB" 1000, "TRMF" 0, "BLDB" 0, "BLDA" 0, "TRMD" 0, "TRMC" 1000, "SKLD" 0, "TRML" 369, "SKLA" 0, "TRMK" 0, "WMX2" 1000, "TRMA" 0, "SKLB" 0;
   }
 
   &__subtitle {
-    font-size: calc(var(--size-fluid-1) * 2.8);
-    line-height: var(--font-lineheight-1);
-    font-variation-settings: 'TRMB' 505, 'TRMC' 651, 'TRML' 806, 'TRMA' 416, 'TRMG' 250, 'WMX2' 137, 'TRME' 648;
-    letter-spacing: 0.13em;
+    font-size: 35px;
+    line-height: 62px;
+    font-variation-settings: "BLDA" 0, "TRMD" 765, "TRMC" 1000, "SKLD" 91, "TRML" 1000, "SKLA" 0, "TRMF" 0, "TRMK" 0, "BLDB" 0, "WMX2" 0, "TRMB" 1000, "TRMA" 1000, "SKLB" 0, "TRMG" 4, "TRME" 456;
+    letter-spacing: 0.233em;
   }
 
   &__author {
@@ -30,6 +32,6 @@
   }
 
   &__image {
-    max-width: var(--size-15);
+    max-width: var(--size-14);
   }
 }
