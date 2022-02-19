@@ -3,12 +3,11 @@
 // visuals
 
 .content {
-  background: var(--surface-3);
+  background: #5f27cd;
   border: 1px solid var(--surface-1);
   padding: var(--size-4);
   border-radius: var(--radius-3);
   box-shadow: var(--shadow-2);
-  background-color: #510692;
   max-width: max-content;
   width: 90%;
 }
@@ -19,7 +18,7 @@
   place-content: center;
   place-items: center;
   font-family: 'Sono ExtraLight';
-  font-size: 40px;
+  font-size: 30px;
   line-height: 62px;
   letter-spacing: 0.15;
   font-style: normal;
@@ -32,7 +31,7 @@
   font-variation-settings: 'opsz' 68;
 
   &__line {
-    font-size: calc(var(--size-fluid-2) * 1.5);
+    font-size: calc(var(--size-fluid-2) * 1.2);
     line-height: var(--font-lineheight-1);
   }
 }

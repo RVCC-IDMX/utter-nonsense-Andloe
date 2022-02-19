@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  background-color: #261594;
 }
 
 body {
@@ -8,7 +9,6 @@ body {
   display: grid;
   grid-template-rows: 1fr auto;
   padding-top: var(--size-2);
-  background-color: #261594;
 }
 
 .container {
